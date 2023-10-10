@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro de Currículo</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://www.bnuonline.com.br/img/logo.png" width="260px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">EMPREGOS</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="curriculo.html">CURRÍCULOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">CLASSIFICADOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="blog.html">BLOG</a>
+                </li>
+                </ul>            
+            </div>
+        </div>
+    </nav>
+    <!-- fim navbar -->
+
+    <!-- bloco vazio -->
+    <div class="bloco-vazio">
+        <div class="row">
+        </div>
+    </div>
+    <!-- fim bloco vazio -->
+
+    <div class="container" id="containerCampos">
+        <h2 class="text-center">Cadastro de Currículo</h2>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite uma mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block botaoEnviar">Enviar</button>
+        </form>
+    </div>
+    
+    <!-- bloco vazio -->
+    <div class="bloco-vazio">
+        <div class="row">
+        </div>
+    </div>
+    <!-- fim bloco vazio -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container col-9">
+                <div class="row">
+                    <div class="col">
+                        <h3>Blumenau Online</h3>
+                        <h6>Um Portal de Oportunidades</h6>
+                    </div>
+                    <div class="col">
+                        <h3>Anuncie conosco</h3>
+                        <a href="#"><h6>comercial@bnuonline.com.br</h6></a>
+                    </div>
+                    <div class="col">
+                        <h3>Veja também:</h3>
+                        <ul>
+                            <li><a href="#" class="list-item">HOME</a></li>
+                            <li><a href="#" class="list-item">EMPREGOS</a></li>
+                            <li><a href="#" class="list-item">CURRÍCULOS</a></li>
+                            <li><a href="#" class="list-item">CLASSIFICADOS</a></li>
+                            <li><a href="#" class="list-item">BLOG</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer copyright -->
+    <div class="footer-copyright">
+        <div class="container center-align">
+            © 2023 Blumenau Online | Todos os direitos reservados.
+          </div>
+    </div>
+    <!-- footer copyright fim-->
+    <!-- fim footer -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
